@@ -1,0 +1,44 @@
+
+
+
+   .video-feed-watchLater {
+    width: 100%;
+    max-width: 960px; 
+  }
+  
+  .watchLater-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    padding: 8px 0;
+    position: relative; 
+  }
+  
+  .video-card-watchLater {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .cross-button {
+    background: transparent;
+    border: none;
+    color: #606060;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 0; 
+    margin-left: 16px;
+  }
+  
+  .cross-button:hover {
+    color: #ff0000;
+  }
+  
+  .watchLater-Head {
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 16px;
+  }
+  

@@ -1,0 +1,50 @@
+ .thumbnail-card {
+  width: 400px;
+  margin-bottom: 16px; 
+}
+
+.thumbnail {
+ 
+  width: 400px;
+  height: 225px; 
+  object-fit: cover; 
+  border-radius: 8px; 
+}
+
+h3 {
+  font-size: 16px;
+  color: #0f0f0f;
+  margin: 8px 0 4px;
+  
+ 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+p {
+  font-size: 14px;
+  color: #606060;
+  margin: 0;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+} 
+
+
+.video-Description{
+font-size: 16px;
+font-weight: 400;
+color: rgb(101, 101, 101);
+margin-top: -10px;
+}
+
+.video-timestamp{
+
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.date-view{
+  margin-top: -20px;
+  display: flex;
+}

@@ -1,0 +1,23 @@
+
+
+/* Home.css */
+.video-feed-home {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 5px; 
+  justify-content: center;
+  padding: 16px;
+  padding-top: 25px;
+}
+
+
+.video-thumbnail {
+  width: 100%; 
+  cursor: pointer;
+}
+
+
+.video-card-home {
+  display: flex;
+  justify-content: center;
+}

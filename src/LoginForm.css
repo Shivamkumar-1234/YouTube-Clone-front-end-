@@ -1,0 +1,77 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; 
+}
+
+.main-box {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.Form {
+  vertical-align: center;
+  width: 443px;
+  height: 400px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 8px 30px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(43.5px);
+  border: none;
+}
+
+.log-head {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  width: 400px; 
+  padding: 10px;
+  background: #333;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.login-btn:hover {
+  background: #555; 
+}
+
+.email-box,
+.password-box {
+  width: 100%;
+  max-width: 400px; 
+  margin-bottom: 20px; 
+}
+
+.email-input,
+.password-input {
+  width: 100%; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.email-input:focus,
+.password-input:focus {
+  outline: none;
+  border-color: #333; 
+}
+
+.Form .signUp-link {
+  width: 400px;
+  text-align: center;
+  padding: 10px 0 0 0;
+}

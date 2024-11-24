@@ -1,0 +1,55 @@
+
+
+   .history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  .clear-history-btn {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 40px;
+  }
+  
+  .history-item {
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    max-width: 960px; 
+    margin-bottom: 16px;
+    padding: 8px 0;
+    position: relative; 
+  }
+  
+  .video-card-history {
+    display: flex;
+    flex-grow: 1; 
+    align-items: center;
+  }
+  
+  .cross-button {
+    background: transparent;
+    border: none;
+    color: #606060;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    margin-left: -24px;
+  }
+  
+  .cross-button:hover {
+    color: #ff0000;
+  }
+  
+  .history-Head {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  

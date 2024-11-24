@@ -1,0 +1,169 @@
+.video-page {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  
+.video-container {
+  position: relative;
+  width: 854px;
+  padding-bottom: 41.25%; 
+  height: 0;
+  overflow: hidden;
+  margin-top: -40px;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+  .video-card {
+    width: 100%;
+  }
+  
+  .video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+
+
+  .video-details {
+    position: relative;
+    margin-top: 0;
+    width: 854px;
+    z-index: 99;
+  }
+  
+  
+  .video-actions {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .video-actions-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .like-button,
+  .dislike-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+  }
+  
+  .like-button.filled,
+  .dislike-button.filled {
+    background-color: black;
+    color: white;
+    border-color: black;
+  }
+  
+  .like-button.outlined,
+  .dislike-button.outlined {
+    background-color: transparent;
+    color: black;
+    border-color: #ccc;
+  }
+  
+  .subscribe-btn {
+ 
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: auto;
+    transition: all 0.3s ease;
+  }
+  
+  .subscribe-button.subscribed {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+  }
+  
+  .video-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .video-description {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .video-info{
+    width: 400px;
+    height: 100px;
+    display: flex;
+  }
+
+  .video-details{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .subs-btn{
+    margin-top: 4px;
+    margin-left: 25px;
+        margin-right: 10px;
+  }
+
+  /* ------------------------------------Comment Section--------------------------------------------------------------------------------------- */
+  .cmt-section {
+    width: 854px;
+   
+  }
+  
+  .comment {
+    margin-bottom: 16px;
+    padding: 8px 0;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  
+  .comment-user-time {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #606060;
+    margin-bottom: 4px;
+  }
+  
+  .comment-user {
+    font-weight: bold;
+    color: #030303;
+    margin-right: 8px;
+  }
+  
+  .comment-timestamp {
+    font-size: 12px;
+    color: #606060;
+  }
+  
+  .comment-text {
+    font-size: 14px;
+    color: #030303;
+    margin-top: 4px;
+    width: 800px;
+  }
+  
+  .form-control {
+    margin-bottom: 16px;
+  }
+  

@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  .search-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 960px; 
+    margin-bottom: -30px;
+    position: relative; 
+  }
+  
+  .video-card-search {
+    display: flex;
+    flex-grow: 1; 
+    align-items: center; 
+  }
+  
+
+  
+  
+  
+  
